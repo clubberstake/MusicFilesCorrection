@@ -1,6 +1,8 @@
 ﻿
-Microsoft Visual Studio Solution File, Format Version 10.00
-# Visual Studio 2008
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MusicFilesCorrection", "MusicFilesCorrection\MusicFilesCorrection.csproj", "{4F21D6F9-63C7-4C66-A7D1-4B5285A11D1B}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MusicFileEditor", "MusicFileEditor\MusicFileEditor.csproj", "{383800FC-609A-45B0-BB6A-C46819AFE2E6}"
