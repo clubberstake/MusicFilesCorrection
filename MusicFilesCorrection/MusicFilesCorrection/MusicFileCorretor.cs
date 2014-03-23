@@ -6,6 +6,7 @@ using System.Threading;
 using System.Windows.Forms;
 using MusicFileEditor;
 using TagLib.Riff;
+using System.Threading.Tasks;
 
 namespace MusicFilesCorrection
 {
@@ -45,10 +46,10 @@ namespace MusicFilesCorrection
 
         private void UpdateMP3z(List<String> fileCollection)
         {
-            foreach (String file in fileCollection)
+            Parallel.For(0, fileCollection.Count, x =>
             {
-                UpdateMP3(file);
-            }
+                UpdateMP3(fileCollection[x]);
+            });           
         }
 
         private void UpdateMP3(String file)
