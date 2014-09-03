@@ -1,4 +1,4 @@
-If you have a music library that's in shambles like mine was, you can use this tool to help fix it.  I prefer to store my music like such and this utility will work best if organized this way:
+If you have a music library that's in shambles like mine was, you can use this tool to help fix it. I prefer to store my music like such and this utility will work best if organized this way:
 \
 --> Country
 ----> Eric Church
@@ -6,4 +6,4 @@ If you have a music library that's in shambles like mine was, you can use this t
 --> Rap
 ----> Eminem
 
-From there you can use the tool to recursively set the genre for all artists.  Set the artist for each artist folder, set the album name for all mp3's in an album.  This mirrors how an iPod music library is organzed.
+From there you can use the tool to recursively set the genre for all artists. Set the artist for each artist folder, set the album name for all mp3's in an album. This mirrors how an iPod music library is organized.
